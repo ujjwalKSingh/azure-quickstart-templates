@@ -52,7 +52,7 @@
     },
     "imageType": {
       "type": "string",
-      "defaultValue": "Gallery",
+      "defaultValue": "User",
       "allowedValues": [
         "Gallery",
         "User"
