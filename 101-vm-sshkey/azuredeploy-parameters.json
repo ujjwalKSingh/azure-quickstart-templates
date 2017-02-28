@@ -1,24 +1,19 @@
 ﻿
 {
-    "newStorageAccountName": {
-        "value": "changeme"
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "value": "GEN-UNIQUE"
     },
-    "adminUsername": {
-        "value": "changeme"
-    },
-    "dnsNameForPublicIP": {
-        "value": "changeme"
-    },
-    "sshKeyData": {
-        "value": "ssh rsa public key"
-    },
-    "location": {
-        "value": "East US"
+	"vmName": {
+      "value": "Netscaler SD-WAN Standard Edition"
     },
     "vmSize": {
-        "value": "Standard_A2"
+      "value": "Standard_D3_v2"
     },
-    "vmName": {
-        "value": "changeme"
+	"adminUsername": {
+      "value": "admin"
     }
+  }
 }
